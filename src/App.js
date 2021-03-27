@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Leagues from './Components/Leagues/Leagues';
-import { createContext } from 'react';
 import LeagueDetail from './Components/LeagueDetail/LeagueDetail';
 
 function App() {
