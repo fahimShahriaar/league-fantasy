@@ -1,0 +1,16 @@
+.top-banner{
+    background-image: url('../../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    margin-bottom: 0;
+}
+.thumb img{
+    /* height: 200px; */
+    width: 250px;
+}
+footer img{
+    height: 60px;
+    margin: 5px;
+}
