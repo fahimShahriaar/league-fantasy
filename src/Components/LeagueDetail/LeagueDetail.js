@@ -19,7 +19,7 @@ const LeagueDetail = () => {
     }, [idLeague])
     console.log(league);
     const { strLeague, dateFirstEvent, strCountry, strSport, strGender, strBadge, strDescriptionEN } = league || '';
-    const thumbnail = strGender == 'Male' ? <img src={male} alt=""/> : <img src={female} alt=""/>
+    const thumbnail = strGender === 'Male' ? <img src={male} alt=""/> : <img src={female} alt=""/>
     return (
         <div>
             <div className="top-banner">
