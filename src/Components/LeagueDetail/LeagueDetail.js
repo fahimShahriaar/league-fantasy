@@ -43,9 +43,9 @@ const LeagueDetail = () => {
                         <p>{strDescriptionEN}</p>
                     </div>
                     <footer className="text-center">
-                        <a href="https://facebook.com" target="_blank"><img src={facebook} alt=""/></a>
-                        <a href="https://twitter.com" target="_blank"><img src={twitter} alt=""/></a>
-                        <a href="https://youtube.com" target="_blank"><img src={youtube} alt=""/></a>
+                        <a href="https://facebook.com"><img src={facebook} alt=""/></a>
+                        <a href="https://twitter.com"><img src={twitter} alt=""/></a>
+                        <a href="https://youtube.com"><img src={youtube} alt=""/></a>
                     </footer>
                 </div>
             </div>
